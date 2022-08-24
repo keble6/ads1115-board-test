@@ -1,0 +1,11 @@
+input.onButtonPressed(Button.A, function () {
+    serial.writeLine("ch 0 = " + ADS1115.readADC(0))
+    basic.pause(1000)
+    serial.writeLine("ch 1 = " + ADS1115.readADC(1))
+    basic.pause(1000)
+    serial.writeLine("ch 2 = " + ADS1115.readADC(2))
+    basic.pause(1000)
+    serial.writeLine("ch 3 = " + ADS1115.readADC(3))
+})
+ADS1115.setADDR(72)
+ADS1115.setFSR(FSR.V4)
