@@ -3,9 +3,9 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
-        "pxt-ADS1115": "github:keble6/pxt-ADS1115#238e239aba60bd0c089d0e2b932a2568cf3e6988"
+        "pxt-ADS1115": "github:keble6/pxt-ads1115#3c120be096a390b1d423cf1e30c0f860b20d9c45",
+        "bluetooth": "*"
     },
     "files": [
         "main.blocks",
